@@ -22,11 +22,12 @@ let package = Package(
 			name: "DFCache",
 			path: "DFCache", 
 			cSettings: [
-				.headerSearchPath("Extended File Attributes"),
-				.headerSearchPath("Image Decoder"),
-				.headerSearchPath("Key-Value File Storage"),
-				.headerSearchPath("Private"),
-				.headerSearchPath("Value Transforming")
+				.headerSearchPath("./"),
+				.headerSearchPath("./Extended File Attributes"),
+				.headerSearchPath("./Image Decoder"),
+				.headerSearchPath("./Key-Value File Storage"),
+				.headerSearchPath("./Private"),
+				.headerSearchPath("./Value Transforming")
 			]
 		)
     ]
